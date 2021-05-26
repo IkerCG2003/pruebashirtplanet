@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* menú */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: violet;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px;
+}
+
+
+/* icono */
+
+#icono {
+    height: 25vh;
+}
+
+
+/* reglas de texto */
+
+.nombre {
+    color: #B15AA1;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#section-1,
+#section-2,
+#section-3 p {
+    font-size: 1.5vw;
+}
+
+.sec {
+    font-size: 2vw;
+    color: #B15AA1;
+    font-weight: bold;
+}
+
+#footer h1 {
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+#footer p {
+    font-size: 1.25vw;
+    font-weight: bold;
+    color: black;
+}
+
+
+/* columnas */
+
+.column-1 {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.column-2 {
+    width: 50%;
+    float: right;
+}
+
+.column-3 {
+    width: 33.3%;
+    padding: 30px 30px 0px 30px;
+    border-radius: 10px;
+}
+
+
+/* productos */
+
+.nombre {
+    width: 16.6%;
+    float: left;
+    text-align: center;
+    color: azure;
+    padding: 5px 5px 5px 5px;
+}
+
+.column-3 img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.nombre img {
+    width: 100%;
+}
+
+.productos {
+    flex: 50%;
+    padding: 0% 5%;
+}
+
+.productos img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+img {
+    border-radius: 10px;
+    height: 35vh;
+}
+
+
+/* encabezado */
+
+#header {
+    color: black;
+    background-color: #B15AA1;
+    font-weight: bold;
+    font-family: 'Pattaya', sans-serif;
+    text-align: center;
+    height: 35%;
+}
+
+#header h1 {
+    font-size: 3vw;
+}
+
+#header h2 {
+    font-size: 2vw;
+}
+
+#header img {
+    width: 12vw;
+    float: left;
+    position: absolute;
+    left: 1%;
+}
+
+
+/* reglas footer */
+
+.column2f {
+    width: 50%;
+    padding: 4% 7%;
+    float: left;
+}
+
+.column1f {
+    width: 100%;
+    font-size: 1vw;
+    padding: 4% 2% 0% 4%;
+}
