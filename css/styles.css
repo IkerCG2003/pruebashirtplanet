@@ -80,6 +80,7 @@ html {
     font-size: 2vw;
     color: #B15AA1;
     font-weight: bold;
+    text-align: center;
 }
 
 #footer h1 {
@@ -173,6 +174,19 @@ img {
     float: left;
     position: absolute;
     left: 1%;
+}
+
+
+/* secciones */
+
+#section-1,
+#section-2,
+#section-3 {
+    background-color: black;
+}
+
+#footer {
+    background-color: #B15AA1;
 }
 
 
